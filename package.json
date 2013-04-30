@@ -14,7 +14,13 @@
     "twitter"
   ],
   "author": "Remy Sharp",
-  "license": "MIT / http://rem.mit-license.org",
+  "licenses": [{
+    "type": "MIT",
+    "url": "http://rem.mit-license.org"
+  }],
+  "bin": {
+    "get-twitter-avatars" : "./avatars.js"
+  },
   "dependencies": {
     "request": "~2.20.0"
   },
