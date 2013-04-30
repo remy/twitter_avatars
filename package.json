@@ -1,5 +1,5 @@
 {
-  "name": "avatars",
+  "name": "get-twitter-avatars",
   "version": "0.0.1",
   "description": "Downloads twitter avatars",
   "main": "avatars.js",
@@ -17,5 +17,6 @@
   "license": "MIT / http://rem.mit-license.org",
   "dependencies": {
     "request": "~2.20.0"
-  }
+  },
+  "global": true
 }
