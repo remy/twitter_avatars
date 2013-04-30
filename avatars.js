@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 var request = require('request'),
     fs = require('fs'),
     file = process.argv[2],
