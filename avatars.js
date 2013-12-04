@@ -13,7 +13,7 @@ if (!file) {
       data.split(',').map(function (user) {
         return user.trim();
       }).forEach(function (user) {
-       request('https://api.twitter.com/1/users/profile_image?screen_name=' + user + '&size=original').pipe(fs.createWriteStream(directory + user + '.jpg'));
+       request('http://twitter.com/api/users/profile_image/' + user + '?size=original').pipe(fs.createWriteStream(directory + user + '.jpg'));
       });
     });
   });
