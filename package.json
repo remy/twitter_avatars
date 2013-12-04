@@ -1,6 +1,6 @@
 {
   "name": "get-twitter-avatars",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Downloads twitter avatars",
   "main": "avatars.js",
   "scripts": {
